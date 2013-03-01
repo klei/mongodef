@@ -1,0 +1,25 @@
+{
+  "name": "klei-schema",
+  "version": "0.1.0",
+  "description": "Utilities to convert a Mongoose Schema to JSON and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec test/"
+  },
+  "repository": "",
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "mongo",
+    "schema",
+    "json"
+  ],
+  "author": "Joakim Bengtson <joakim@klei.se>",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "~3.5.7"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  }
+}
