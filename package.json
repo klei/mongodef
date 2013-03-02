@@ -1,12 +1,12 @@
 {
   "name": "klei-mongodef",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utilities to handle Mongoose Schema Definitions, to convert to JSON and vice versa",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec test/"
   },
-  "repository": "",
+  "repository": "git://github.com/klei-dev/mongodef.git",
   "keywords": [
     "mongoose",
     "mongodb",
