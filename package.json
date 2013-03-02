@@ -1,10 +1,10 @@
 {
-  "name": "klei-schema",
+  "name": "klei-mongodef",
   "version": "0.1.0",
-  "description": "Utilities to convert a Mongoose Schema to JSON and vice versa",
+  "description": "Utilities to handle Mongoose Schema Definitions, to convert to JSON and vice versa",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R spec test/"
+    "test": "./node_modules/.bin/mocha -R spec test/"
   },
   "repository": "",
   "keywords": [
@@ -20,6 +20,8 @@
     "mongoose": "~3.5.7"
   },
   "devDependencies": {
-    "mocha": "~1.8.1"
+    "mocha": "~1.8.1",
+    "chai": "~1.5.0",
+    "should": "~1.2.2"
   }
 }
