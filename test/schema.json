@@ -1,0 +1,10 @@
+{
+    "_id": {"type": "objectid"},
+    "name": {"type": "string"},
+    "field1": {"type": "number", "default": 0},
+    "field2": "string",
+    "date": {"type": "date", "default": "Date.now"},
+    "booleans": ["boolean"],
+    "items": [{"name": {"type": "string"}}],
+    "any": {"type": "mixed"}
+}
